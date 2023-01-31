@@ -2,6 +2,8 @@
 import Header from '../components/header/Header';
 import TopBlock from '../components/topBlock/TopBlock';
 import BenefitsBlock from '../components/benefitsBlock/BenefitsBlock';
+import AnswersBlock from '../components/answersBlock/AnswersBlock';
+import StatisticsBlock from '../components/statisticsBlock/StatisticsBlock';
 import './App.scss';
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
       <Header />
       <TopBlock />
       <BenefitsBlock />
+      <AnswersBlock />
+      <StatisticsBlock />
 
 
 
