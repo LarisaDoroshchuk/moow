@@ -1,0 +1,57 @@
+.topBestBlock_container{
+    margin: 0 50px;
+    background: #FEFEFE;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topBestBlock_item{
+    padding: 10px;
+
+    max-width: 360px;
+    max-height: 230px;
+    background: #FEFEFE;
+    box-shadow: 0px 1.33333px 11.3333px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+}
+
+.topBestBlock-title{
+    width: 340px;
+    height: 20px;
+    font: 700 16px/20px "Mulish", sans-serif;
+    color: #262626;
+    margin-bottom: 2px;
+}
+
+.topBestBlock-wrapLine{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    margin-top: 12px;
+}
+
+.topBestBlock-lineТumber{
+    font: 700 11px/14px "Mulish", sans-serif;
+    color: #665CD1;
+    padding: 3px 6.5px;
+    background: #F1F0FF;
+    border-radius: 42px;
+}
+
+.topBestBlock-lineText{
+    font: 500 14px/18px "Mulish", sans-serif;
+    color: #262626;
+    margin-left: 5px;
+}
+
+.titleTotal{
+    margin: 16px 0 0 0;
+}
+
+.titleTotal-accent{
+    color: #665CD1;
+}
+

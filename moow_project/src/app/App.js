@@ -4,6 +4,8 @@ import TopBlock from '../components/topBlock/TopBlock';
 import BenefitsBlock from '../components/benefitsBlock/BenefitsBlock';
 import AnswersBlock from '../components/answersBlock/AnswersBlock';
 import StatisticsBlock from '../components/statisticsBlock/StatisticsBlock';
+import TopBestBlock from '../components/topBestBlock/TopBestBlock';
+import MapBlock from '../components/mapBlock/MapBlock';
 import './App.scss';
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <BenefitsBlock />
       <AnswersBlock />
       <StatisticsBlock />
+      <TopBestBlock />
+      <MapBlock />
 
 
 
