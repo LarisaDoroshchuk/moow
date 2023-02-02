@@ -6,7 +6,8 @@ import './Header.scss';
 const Header = () => {
 
     return (
-        <>
+        <div className="header-container">
+
             <header className="header-modal">
 
                 <Link to="/" className="header_home-link">
@@ -55,13 +56,10 @@ const Header = () => {
                     </select>
                 </div>
 
-
-
             </header>
-        </>
+
+        </div>
     )
 
 }
-
-
 export default Header

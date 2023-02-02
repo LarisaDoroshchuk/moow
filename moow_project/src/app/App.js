@@ -6,6 +6,9 @@ import AnswersBlock from '../components/answersBlock/AnswersBlock';
 import StatisticsBlock from '../components/statisticsBlock/StatisticsBlock';
 import TopBestBlock from '../components/topBestBlock/TopBestBlock';
 import MapBlock from '../components/mapBlock/MapBlock';
+import VideoBlock from '../components/videoBlock/VideoBlock';
+import StockBlock from '../components/stockBlock/StockBlock';
+import RegistrationBlock from '../components/registrationBlock/RegistrationBlock';
 import './App.scss';
 
 function App() {
@@ -19,6 +22,9 @@ function App() {
       <StatisticsBlock />
       <TopBestBlock />
       <MapBlock />
+      <VideoBlock />
+      <StockBlock />
+      <RegistrationBlock />
 
 
 

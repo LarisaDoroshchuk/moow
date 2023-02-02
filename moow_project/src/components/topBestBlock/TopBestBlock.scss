@@ -3,23 +3,19 @@
     background: #FEFEFE;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
 }
 
 .topBestBlock_item{
     padding: 10px;
-
     max-width: 360px;
-    max-height: 230px;
     background: #FEFEFE;
     box-shadow: 0px 1.33333px 11.3333px rgba(0, 0, 0, 0.09);
     border-radius: 10px;
 }
 
 .topBestBlock-title{
-    width: 340px;
-    height: 20px;
+    max-width: 340px;
     font: 700 16px/20px "Mulish", sans-serif;
     color: #262626;
     margin-bottom: 2px;

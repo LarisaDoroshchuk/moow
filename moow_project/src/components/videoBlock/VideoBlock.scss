@@ -1,0 +1,50 @@
+.videoBlock_container{
+    margin: 0 20px;
+    background: #FEFEFE;
+    width: 100%;
+    padding: 0 50px;
+}
+
+.videoBlock{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:25px 0;
+}
+
+.videoBlock-title{
+    width: 304px;
+    height: 30px;
+    font: 700 24px/30px "Mulish", sans-serif;
+    color: #665CD1;
+}
+
+.videoBlock-img{
+    width: 20px;
+    height: 350px;
+}
+
+.videoBlock_wrap{
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    max-height: 350px;
+    
+}
+
+.videoBlock-img{
+    width: 700px;
+    height: 350px;
+}
+
+.videoBlock-img_startButton{
+    position: absolute;
+    top: 43%;
+    left: 47%;
+    z-index: 2;
+    width: 49px;
+    height: 48px;
+}
+
