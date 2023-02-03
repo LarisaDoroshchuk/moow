@@ -22,12 +22,12 @@ const SecurityBlock = () => {
 
                 <section className="securityBlock_wrap-content">
 
-                    <section className="securityBlock_container-content">
+                    <div className="securityBlock_wrap-titles">
+                        <h2 className="securityBlock_titles">Організація, контроль та безпека</h2>
+                        <h2 className="securityBlock_title-text">Додаток для водіїв транспортних засобів</h2>
+                    </div>
 
-                        <div className="securityBlock_wrap-titles">
-                            <h2 className="securityBlock_titles">Організація, контроль та безпека</h2>
-                            <h2 className="securityBlock_title-text">Додаток для водіїв транспортних засобів</h2>
-                        </div>
+                    <section className="securityBlock_container-content">
 
                         <div className="securityBlock_wrap-text">
 
@@ -107,10 +107,8 @@ const SecurityBlock = () => {
 
                         </div>
 
-                    </section>
+                        <section className="securityBlock_container-picture"></section>
 
-                    <section className="securityBlock_container-picture">
-                        <img src="/img/fons_2.png" className="securityBlock_img" alt="" />
                     </section>
 
                 </section>
@@ -119,9 +117,7 @@ const SecurityBlock = () => {
 
             </div>
 
-        </div>
+        </div >
     )
-
 }
-
 export default SecurityBlock

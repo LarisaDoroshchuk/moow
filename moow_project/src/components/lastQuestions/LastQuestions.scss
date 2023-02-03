@@ -1,0 +1,64 @@
+.lastQuestions_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+    width: 100%;
+}
+
+.lastQuestions_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    max-width: 480px;
+    background: #FEFEFE;
+    box-shadow: 0px 3.33333px 14.6667px rgba(215, 215, 215, 0.47);
+    border-radius: 15px;
+}
+
+.lastQuestions-title{
+    font: 700 24px/30px "Mulish", sans-serif;
+    color: #665CD1;
+    margin-bottom: 15px;
+}
+
+.lastQuestions-text{
+    font: 500 16px/20px "Mulish", sans-serif;
+    color: #262626;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.lastQuestions_block-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.lastQuestions_button-link{
+    padding: 10px 15px;
+    border-radius: 45px;
+    text-decoration: none;
+    font: 700 16px/20px "Mulish", sans-serif;
+    color: #F1F0FF;
+}
+
+.link-faq{
+    background: #171717;
+    box-shadow: 0px 4px 10px rgba(110, 98, 228, 0.26);
+}
+
+.link-chat{
+    background: #665CD1;
+    box-shadow: 0px 4px 10px rgba(110, 98, 228, 0.26);
+    margin-left: 25px;
+}
+
+.lastQuestions-content{
+    font: 300 14px/18px "Mulish", sans-serif;
+    width: 450px;
+    color: #5A5A5A;
+    margin-top: 25px;
+}
+

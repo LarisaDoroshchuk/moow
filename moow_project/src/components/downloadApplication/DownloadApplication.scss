@@ -1,0 +1,55 @@
+.downloadApplication_wrapper{
+    background-image: url("./downloadApplication_img/background.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0 15px 0;
+}
+
+.downloadApplication-title {
+    font: 700 24px/30px "Mulish", sans-serif;
+    color: #F1F0FF;
+    margin-bottom: 10px;
+}
+
+.downloadApplication-text {
+    font: 500 16px/20px "Mulish", sans-serif;
+    color: #F1F0FF;
+    margin-bottom: 15px;
+}
+
+.downloadApplication_block-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.downloadApplication_button-link {
+    padding: 10px;
+    border-radius: 26px;
+    text-decoration: none;
+    font: 700 14px/18px "Mulish", sans-serif;
+    color: #F1F0FF;
+    margin-bottom: 20px;
+}
+
+.downloadApplication_button-link:nth-child(1) {
+    margin-right: 40px;
+}
+
+.link-googlePlay, .link-appStore {
+    background: #171717;
+    box-shadow: 0px 4px 10px rgba(110, 98, 228, 0.26);
+}
+
+.link_web {
+    background: #665CD1;
+    box-shadow: 0px 4px 10px rgba(110, 98, 228, 0.26);
+}
+

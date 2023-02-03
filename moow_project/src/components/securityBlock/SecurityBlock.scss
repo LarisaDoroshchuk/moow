@@ -1,11 +1,9 @@
 .securityBlock_container-parallax{
     background-image: url("./securityBlock_img/securityBlock.png");
-    // background-attachment: fixed;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-    // height: 768px;
 }
 
 .securityBlock_container{
@@ -13,7 +11,6 @@
     padding: 20px 50px;
     display: flex;
     flex-direction: column;
-    // align-items: center;
     justify-content: space-between;
 }
 
@@ -22,22 +19,12 @@
     margin-bottom: 20px;
 }
 
-.securityBlock_wrap-content{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
 .securityBlock_container-content{
     display: flex;
-    flex-direction: column;
-    // align-items: center;
-    justify-content: start;
-    width: 100%;
-}
-
-.securityBlock_wrap-titles{
-    margin-bottom: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 .securityBlock_titles{
@@ -48,7 +35,6 @@
 .securityBlock_title-text{
     font: 500 24px/30px "Mulish", sans-serif;
     color: #EBEBEB;
-    // align-self: stretch;
 }
 
 .securityBlock_wrap-text{
@@ -61,7 +47,6 @@
     max-width: 305px;
     align-self: stretch;
     margin-right: 25px;
-    // margin-bottom: 15px;
 }
 
 .securityBlock_text-title{
@@ -90,9 +75,24 @@
     max-width: 275px;
 }
 
+.securityBlock_container-picture{
+    background-image: url("./securityBlock_img/fons_2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    max-width: 525.33px;
+    max-height: 499.33px;
+    min-width: 356.32px;
+    min-height: 429px;
+
+}
+
 .securityBlock_img{
     max-width: 525.33px;
     max-height: 499.33px;
+    min-width: 356.32px;
+    min-height: 429px;
 }
 
 .securityBlock_container-soon{
@@ -119,7 +119,9 @@
 @media (max-width: 999px) {
     .securityBlock_title-text {
         font: 500 19px/23px "Mulish", sans-serif;
-        width: 409px;
+        // width: 409px;
+        max-width: 409px;
+        min-width: 224px;             
     }
 
     .securityBlock_text-list {
@@ -135,7 +137,7 @@
         margin-bottom: 15px;
     }
 
-
+    .securityBlock_wrap-titles {
+        margin-bottom: 50px;
+    }
 }
-
-

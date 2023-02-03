@@ -11,6 +11,8 @@ import StockBlock from '../components/stockBlock/StockBlock';
 import RegistrationBlock from '../components/registrationBlock/RegistrationBlock';
 import StepsBlock from '../components/stepsBlock/StepsBlock';
 import SecurityBlock from '../components/securityBlock/SecurityBlock';
+import LastQuestions from '../components/lastQuestions/LastQuestions';
+import DownloadApplication from '../components/downloadApplication/DownloadApplication';
 import './App.scss';
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
       <RegistrationBlock />
       <StepsBlock />
       <SecurityBlock />
+      <LastQuestions />
+      <DownloadApplication />
 
 
 

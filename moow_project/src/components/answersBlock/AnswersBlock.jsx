@@ -86,7 +86,6 @@ const AnswersBlock = () => {
 
                     </div>
 
-
                 </div>
 
                 <svg className="input-moow_img" width="20" height="223" viewBox="0 0 20 223" fill="none" xmlns="http://www.w3.org/2000/svg">
