@@ -9,6 +9,8 @@ import MapBlock from '../components/mapBlock/MapBlock';
 import VideoBlock from '../components/videoBlock/VideoBlock';
 import StockBlock from '../components/stockBlock/StockBlock';
 import RegistrationBlock from '../components/registrationBlock/RegistrationBlock';
+import StepsBlock from '../components/stepsBlock/StepsBlock';
+import SecurityBlock from '../components/securityBlock/SecurityBlock';
 import './App.scss';
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
       <VideoBlock />
       <StockBlock />
       <RegistrationBlock />
+      <StepsBlock />
+      <SecurityBlock />
 
 
 

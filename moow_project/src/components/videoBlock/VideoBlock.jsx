@@ -31,7 +31,7 @@ const VideoBlock = () => {
 
                 <div className="videoBlock_wrap">
 
-                    <img className="videoBlock-img" src="/img/video.png" alt="video" />
+                    <div className="videoBlock-img"></div>
 
                     <svg className="videoBlock-img_startButton" width="42" height="47" viewBox="0 0 42 47" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0.980762 4.44382C0.980761 1.36462 4.3141 -0.559874 6.98076 0.979726L39.9808 20.0323C42.6474 21.5719 42.6474 25.4209 39.9808 26.9605L6.98076 46.013C4.31409 47.5526 0.980762 45.6281 0.980762 42.5489L0.980762 4.44382Z" fill="#665CD1" />

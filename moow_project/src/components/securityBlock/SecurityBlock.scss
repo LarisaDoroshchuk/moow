@@ -1,0 +1,141 @@
+.securityBlock_container-parallax{
+    background-image: url("./securityBlock_img/securityBlock.png");
+    // background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    // height: 768px;
+}
+
+.securityBlock_container{
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    justify-content: space-between;
+}
+
+.securityBlock_container-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.securityBlock_wrap-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.securityBlock_container-content{
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    justify-content: start;
+    width: 100%;
+}
+
+.securityBlock_wrap-titles{
+    margin-bottom: 100px;
+}
+
+.securityBlock_titles{
+    font: 700 32px/40px "Mulish", sans-serif;
+    color: #EBEBEB;
+}
+
+.securityBlock_title-text{
+    font: 500 24px/30px "Mulish", sans-serif;
+    color: #EBEBEB;
+    // align-self: stretch;
+}
+
+.securityBlock_wrap-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.securityBlock_text{
+    max-width: 305px;
+    align-self: stretch;
+    margin-right: 25px;
+    // margin-bottom: 15px;
+}
+
+.securityBlock_text-title{
+    font: 700 16px/20px "Mulish", sans-serif;
+    color: #EBEBEB;
+    margin-bottom: 10px;
+}
+
+.securityBlock-wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    margin-top: 10px;
+}
+
+.securityBlock_img-star{
+    width: 20px;
+    height: 20px;
+}
+
+.securityBlock_text-list {
+    font: 500 14px/18px "Mulish", sans-serif;
+    color: #EBEBEB;
+    margin-left: 10px;
+    max-width: 275px;
+}
+
+.securityBlock_img{
+    max-width: 525.33px;
+    max-height: 499.33px;
+}
+
+.securityBlock_container-soon{
+    margin-top: 20px;
+    font: 700 32px/40px "Mulish", sans-serif;
+    text-align: right;
+    color: #EBEBEB;
+}
+
+@media (max-width: 1279px) {
+    .securityBlock_titles {
+    font: 700 24px/30px "Mulish", sans-serif;
+    }
+
+    .securityBlock_title-text {
+        font: 500 19px/24px "Mulish", sans-serif;
+    }
+
+    .securityBlock_text-list {
+        font: 500 14px/18px "Mulish", sans-serif;
+    }
+}
+
+@media (max-width: 999px) {
+    .securityBlock_title-text {
+        font: 500 19px/23px "Mulish", sans-serif;
+        width: 409px;
+    }
+
+    .securityBlock_text-list {
+        font: 500 16px/20px "Mulish", sans-serif;
+    }
+
+    .securityBlock_wrap-text {
+        flex-direction: column;
+    }
+
+    .securityBlock_text {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+
+}
+
+

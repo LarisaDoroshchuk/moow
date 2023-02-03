@@ -1,0 +1,115 @@
+.stepsBlock_container{
+    padding: 0px 50px;
+    background: #FEFEFE;
+    margin: 50px 0;
+}
+
+.stepsBlock-title{
+    font: 700 24px/30px "Mulish", sans-serif;
+    color: #665CD1;
+    margin-bottom: 20px;
+}
+
+.stepsBlock-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.stepsBlock_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 11px;
+    width: 220px;
+    height: 200px;
+    border-radius: 10px;
+    background: #F1F0FF;
+    margin-left: 20px;
+}
+
+.stepsBlock_item-first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 11px;
+    width: 220px;
+    height: 200px;
+    border-radius: 10px;
+    background: #665CD1;
+    margin-left: 0;
+}
+
+.stepsBlock_svg-first{
+    width: 71.56px;
+    height: 65px;
+}
+
+.item-text_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.stepsBlock_item-title{
+    width: 54px;
+    height: 20px;
+    font: 700 17px/20px "Mulish", sans-serif;
+    color: #171717;
+    margin-bottom: 4px;
+}
+
+.stepsBlock_first-title{
+    color: #F1F0FF;
+}
+
+.stepsBlock_item-text{
+    font: 500 14px/18px "Mulish", sans-serif;
+    text-align: center;
+    color: #171717;
+    align-self: stretch;
+} 
+
+.stepsBlock_first-text{
+    color: #F1F0FF;
+}
+
+.stepsBlock_item:hover {
+    background: #665CD1;
+    transition: 2s;
+}
+
+.stepsBlock_item:hover .stepsBlock_svg path {
+    fill: #F1F0FF;
+    width: 100px;
+}
+
+.stepsBlock_item:hover .stepsBlock_item-title {
+    color: #F1F0FF;
+    transition: 1s;
+}
+
+.stepsBlock_item:hover .stepsBlock_item-text {
+    color: #F1F0FF;
+    transition: 1s;
+}
+
+@media (max-width: 1050px) {
+    .stepsBlock_item {
+        width: 195px;
+        height: 170px;
+    }
+
+    .stepsBlock_item-title {
+        font: 700 16px/20px "Mulish", sans-serif;
+    }
+
+    .stepsBlock_item-text {
+        font: 500 14px/18px "Mulish", sans-serif;
+    }
+}
+
+

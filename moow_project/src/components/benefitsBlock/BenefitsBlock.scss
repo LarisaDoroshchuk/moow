@@ -46,6 +46,10 @@
     max-height: 120px;
 }
 
+.service-item_img:hover .service-item_path{
+    fill: hwb(265 75% 7%);
+}
+
 .service-item_title{
     font: 700 19px/24px "Mulish", sans-serif;
     color: #262626;
