@@ -1,9 +1,10 @@
 .downloadApplication_wrapper{
     background-image: url("./downloadApplication_img/background.png");
     background-attachment: fixed;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
-    background-size: cover;
+    //background-size: cover;
+
 
     display: flex;
     flex-direction: column;
