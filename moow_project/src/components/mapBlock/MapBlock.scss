@@ -1,4 +1,9 @@
-.mapBlock_container{
+.mapBlock {
+    width: 100%;
+    text-align: center;
+}
+
+.mapBlock_container {
     margin: 25px 50px 50px 50px;
     background: #FEFEFE;
     display: flex;
@@ -7,16 +12,23 @@
     justify-content: center;
 }
 
+.header-not-at-top {
+    .nav-link, .language-selection {
+        color: #171717;
+    }
+    .header-modal {
+        background-color:#FEFEFE;
+    }
+    .header_home-logo path {
+        fill: #171717;
+    }
+}
+
 .map-wrap{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin-bottom: 50px;
 }
 
 .mapBlock-title{
-    width: 341px;
     height: 18px;
     font: 500 14px/18px "Mulish", sans-serif;
     color: #5A5A5A;

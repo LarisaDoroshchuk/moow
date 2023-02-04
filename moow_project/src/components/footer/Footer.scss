@@ -1,0 +1,155 @@
+.footer_container{
+    margin-top: 50px;
+    padding: 15px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.footer_wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer_wrap-item{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.footer-item_wrap-svg{
+    width: 20px;
+}
+
+.footer-item_wrap-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 2px 0 0 0;
+    max-width: 170px;
+    margin-left: 5px;
+}
+
+.footer-link{
+    text-decoration: none;
+}
+
+.footer-item_list-title{
+    font: 700 14px/18px "Mulish", sans-serif;
+     color: #262626;
+}
+
+.footer-item_list-text{
+    font: 500 14px/18px "Mulish", sans-serif;
+    color: #5A5A5A;
+}
+
+.footer_list-text{
+    margin-left: 12px;
+}
+
+.footer-link_block{
+    display: flex;
+    align-items: center;
+}
+
+.footer-icon_wrap{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    max-width: 80px;
+}
+
+.link-document{
+    border-bottom: 1px solid #665CD1;;
+}
+
+.footer_container-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 328px;
+}
+
+.footer_wrap-freeApp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-freeApp_title{
+    font: 700 14px/18px "Mulish", sans-serif;
+    color: #262626;
+}
+
+.footer-freeApp_wrap-svg{
+    display: flex;
+    align-items: center;
+}
+
+.footer-freeApp_wrap-googlePlay{
+    background-image: url("./footer_img/google_play.png");
+}
+
+.footer-freeApp_wrap-googlePlay{
+    background-image: url("./footer_img/google_play.png");
+}
+
+.footer-link_web{
+    font: 700 16px/20px "Mulish", sans-serif;
+    color: #F1F0FF;
+    padding: 10px 15px;
+    background: #665CD1;
+    box-shadow: 0px 4px 10px rgba(110, 98, 228, 0.26);
+    border-radius: 45px;
+    margin-top: 10px;
+}
+
+.footer_copyright{
+    font: 700 11px/14px "Mulish", sans-serif;
+    text-align: center;
+    color: #7E7E7E;
+    align-self: stretch;
+}
+
+@media (max-width: 1070px) {
+    .footer_container-item {
+        flex-direction: column;
+        width: 148px;
+        justify-content: center;
+        flex-direction: center;
+    }
+
+    .footer-item_list-title {
+        font: 700 11px/14px "Mulish", sans-serif;
+        color: #262626;
+    }
+
+    .footer-item_list-text {
+        font: 500 11px/14px "Mulish", sans-serif;
+        color: #5A5A5A;
+    }
+
+    .footer-freeApp_title {
+        font: 700 11px/14px "Mulish", sans-serif;
+        color: #262626;
+    }
+
+    .footer-link_web {
+        font: 700 11px/14px "Mulish", sans-serif;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer_wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+}

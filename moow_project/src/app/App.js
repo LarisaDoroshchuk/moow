@@ -13,6 +13,7 @@ import StepsBlock from '../components/stepsBlock/StepsBlock';
 import SecurityBlock from '../components/securityBlock/SecurityBlock';
 import LastQuestions from '../components/lastQuestions/LastQuestions';
 import DownloadApplication from '../components/downloadApplication/DownloadApplication';
+import Footer from '../components/footer/Footer';
 import './App.scss';
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
       <SecurityBlock />
       <LastQuestions />
       <DownloadApplication />
+      <Footer />
 
 
 

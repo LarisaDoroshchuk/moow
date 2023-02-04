@@ -1,5 +1,5 @@
 import React, { } from 'react';
-// import { Link } from 'react-router-dom';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import './MapBlock.scss';
 
 const MapBlock = () => {
@@ -11,8 +11,13 @@ const MapBlock = () => {
                 <h6 className="mapBlock-title">Наведіть на потрібну область, щоб побачити дані</h6>
 
                 <div className="map-wrap">
-
-
+                    <HelmetProvider>
+                        <Helmet>
+                            <script src="/js/mapdata.js"></script>
+                            <script src="/js/countrymap.js"></script>
+                        </Helmet>
+                        <div id="map"></div>
+                    </HelmetProvider>
                 </div>
 
                 <a className="mapBlock-link" href="!#">Більше статистики від MOOW</a>

@@ -6,7 +6,7 @@ import './TopBlock.scss';
 const TopBlock = () => {
 
     return (
-        <div className="wrapper-TopBlock">
+        <div className="wrapper-TopBlock" id="top-of-site-pixel-anchor">
 
             <div class="container-parallax">
 
