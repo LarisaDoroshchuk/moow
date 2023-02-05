@@ -15,8 +15,8 @@ const DownloadApplication = () => {
 
             <section className="downloadApplication_block-btn">
 
-                <a href="!#" class="downloadApplication_button-link  link-googlePlay">Завантажити додаток з Google Play </a>
-                <a href="!#" class="downloadApplication_button-link  link-appStore">Завантажити додаток з App Store</a>
+                <a href="https://play.google.com/" class="downloadApplication_button-link  link-googlePlay">Завантажити додаток з Google Play </a>
+                <a href="https://www.apple.com/ua/app-store/" class="downloadApplication_button-link  link-appStore">Завантажити додаток з App Store</a>
 
             </section>
 

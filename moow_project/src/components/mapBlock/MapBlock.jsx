@@ -20,8 +20,10 @@ const MapBlock = () => {
                     </HelmetProvider>
                 </div>
 
-                <a className="mapBlock-link" href="!#">Більше статистики від MOOW</a>
             </section>
+
+            <a className="mapBlock-link" href="!#">Більше статистики від MOOW</a>
+
 
         </div>
     )

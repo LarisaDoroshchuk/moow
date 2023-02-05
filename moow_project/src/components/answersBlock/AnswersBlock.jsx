@@ -76,12 +76,12 @@ const AnswersBlock = () => {
 
                     <div className="input-moow_container">
 
-                        <a href="!#">
+                        <a href="https://play.google.com/">
                             <img className="input-moow_google-img" src="/img/google.png" alt="google play" />
                         </a>
 
-                        <a href="!#">
-                            <img className="input-moow_appStore-img" src="/img/appStore.png" alt="google play" />
+                        <a href="https://www.apple.com/ua/app-store/">
+                            <img className="input-moow_appStore-img" src="/img/appStore.png" alt="app Store" />
                         </a>
 
                     </div>

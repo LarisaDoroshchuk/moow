@@ -6,13 +6,11 @@
 
 .header-modal{
     display: flex;
-    // flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
     width: 100%;
     max-width: 1280px;
-    // margin: 0 auto;
 
     position: fixed;
     top: 0;
@@ -24,11 +22,6 @@
     width: 92px;
     height: 20px;
 }
-
-// .header_home-logo:hover{
-//     color: #665CD1;
-//     transition: 1s;
-// }
 
 .header-wrap-nav{
     display: flex;
@@ -45,7 +38,6 @@
 
 .nav-link{
     text-decoration: none;
-    // text-align: center;
     font: 700 16px/20px "Mulish", sans-serif;
     color: #EBEBEB;
 }
