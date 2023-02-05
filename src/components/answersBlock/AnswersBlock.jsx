@@ -81,7 +81,7 @@ const AnswersBlock = () => {
                         </a>
 
                         <a href="https://www.apple.com/ua/app-store/">
-                            <img className="input-moow_appStore-img" src="/img/appStore.png" alt="app Store" />
+                            <img className="input-moow_appStore-img" src="./img/appStore.png" alt="app Store" />
                         </a>
 
                     </div>
