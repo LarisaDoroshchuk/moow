@@ -1,17 +1,16 @@
 import React, { } from 'react';
-import './TopBlock.scss';
+import '../topBlock/TopBlock.scss';
+import './BusinessCenterBlock.scss';
 
-
-const TopBlock = () => {
+const BusinessCenterBlock = () => {
 
     return (
-        <div className="wrapper-TopBlock" id="top-of-site-pixel-anchor">
+        <div className="wrapper-TopBlock wrapper-BusinessCenterBlock" id="top-of-site-pixel-anchor">
 
             <div className="container-parallax">
 
-                <h2 className="topBlock-text">Весь агро-транспортний ринок
-                    в одному сервісі</h2>
-                <h1 className="topBlock-title">Платформа для фермерів, перевізників, промислових та торгових компаній.</h1>
+                <h1 className="topBlock-text">Центр управління вашим бізнесом</h1>
+                <h2 className="topBlock-title">Тепер контролювати весь агро-транспортний бізнес можна з одного додатку. Все від документообігу до відстеження вантажу в реальному часі доступно в декілька кліків на платформі MOOW.</h2>
 
                 <section className="topBlock_web-block">
                     <div className="web-block">
@@ -31,4 +30,4 @@ const TopBlock = () => {
 
 }
 
-export default TopBlock
+export default BusinessCenterBlock

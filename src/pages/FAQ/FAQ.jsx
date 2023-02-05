@@ -1,11 +1,11 @@
 import React from 'react';
 
 
-function FAQ() {
+function Faq() {
     return (
         <main>
             FAQ
         </main>
     );
 }
-export default FAQ;
+export default Faq;
