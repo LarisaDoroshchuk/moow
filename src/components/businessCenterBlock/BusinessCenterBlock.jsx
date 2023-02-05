@@ -9,10 +9,10 @@ const BusinessCenterBlock = () => {
 
             <div className="container-parallax">
 
-                <h1 className="topBlock-text">Центр управління вашим бізнесом</h1>
-                <h2 className="topBlock-title">Тепер контролювати весь агро-транспортний бізнес можна з одного додатку. Все від документообігу до відстеження вантажу в реальному часі доступно в декілька кліків на платформі MOOW.</h2>
+                <h1 className="topBlock-text text-BusinessCenterBlock">Центр управління вашим бізнесом</h1>
+                <h2 className="topBlock-title title-BusinessCenterBlock">Тепер контролювати весь агро-транспортний бізнес можна з одного додатку. Все від документообігу до відстеження вантажу в реальному часі доступно в декілька кліків на платформі MOOW.</h2>
 
-                <section className="topBlock_web-block">
+                <section className="topBlock_web-block BusinessCenterBlock_web-block">
                     <div className="web-block">
                         <a href="!#" className="topBlock_button-link  link-web">Перейти до веб-версії</a>
                         <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">

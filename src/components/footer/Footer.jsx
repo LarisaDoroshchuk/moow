@@ -23,11 +23,11 @@ const Footer = () => {
                         </svg>
                     </div>
                     <div className="footer-item_wrap-list">
-                        <a className="footer-item_list-title footer-link" href="!#">Сторінки</a>
-                        <a className="footer-item_list-text footer-link" href="!#">Головна</a>
-                        <a className="footer-item_list-text footer-link" href="!#">Про сервіс</a>
-                        <a className="footer-item_list-text footer-link" href="!#">FAQ</a>
-                        <a className="footer-item_list-text footer-link" href="!#">Команда</a>
+                        <a className="footer-item_list-title footer-link" href="/">Сторінки</a>
+                        <a className="footer-item_list-text footer-link" href="/">Головна</a>
+                        <a className="footer-item_list-text footer-link" href="/about">Про сервіс</a>
+                        <a className="footer-item_list-text footer-link" href="/faq">FAQ</a>
+                        <a className="footer-item_list-text footer-link" href="/team">Команда</a>
                     </div>
                 </section>
 
