@@ -23,19 +23,19 @@ const Header = () => {
                 <nav className="header-wrap-nav">
 
                     <div className="header_nav-link">
-                        <Link to={{ pathname: "/....", propSearch: "about the service" }} className="nav-link">
+                        <Link to={{ pathname: "/about", propSearch: "about the service" }} className="nav-link">
                             Про сервіс
                         </Link>
                     </div>
 
                     <div className="header_nav-link">
-                        <Link to={{ pathname: "/....", propSearch: "about the service" }} className="nav-link">
+                        <Link to={{ pathname: "/team", propSearch: "about the service" }} className="nav-link">
                             Команда
                         </Link>
                     </div>
 
                     <div className="header_nav-link">
-                        <Link to={{ pathname: "/....", propSearch: "about the service" }} className="nav-link">
+                        <Link to={{ pathname: "/faq", propSearch: "about the service" }} className="nav-link">
                             FAQ
                         </Link>
                     </div>
