@@ -77,7 +77,7 @@ const AnswersBlock = () => {
                     <div className="input-moow_container">
 
                         <a href="https://play.google.com/">
-                            <img className="input-moow_google-img" src="/img/google.png" alt="google play" />
+                            <img className="input-moow_google-img" src="./img/google.png" alt="google play" />
                         </a>
 
                         <a href="https://www.apple.com/ua/app-store/">

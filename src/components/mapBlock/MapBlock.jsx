@@ -13,8 +13,8 @@ const MapBlock = () => {
                 <div className="map-wrap">
                     <HelmetProvider>
                         <Helmet>
-                            <script src="/js/mapdata.js"></script>
-                            <script src="/js/countrymap.js"></script>
+                            <script src="./js/mapdata.js"></script>
+                            <script src="./js/countrymap.js"></script>
                         </Helmet>
                         <div id="map"></div>
                     </HelmetProvider>

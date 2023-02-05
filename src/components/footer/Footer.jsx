@@ -185,11 +185,11 @@ const Footer = () => {
                     <div className="footer-freeApp_wrap-svg footer-link_block">
 
                         <a className="footer-link footer-link_block" href="https://play.google.com/">
-                            <img className="input-moow_google-img" src="/img/google_play.png" alt="google play" />
+                            <img className="input-moow_google-img" src="./img/google_play.png" alt="google play" />
                         </a>
 
                         <a className="footer-link footer-link_block" href="https://www.apple.com/ua/app-store/">
-                            <img className="input-moow_google-img" src="/img/app_store.png" alt="app_store" />
+                            <img className="input-moow_google-img" src="./img/app_store.png" alt="app_store" />
                         </a>
 
                     </div>
