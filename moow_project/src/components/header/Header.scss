@@ -56,7 +56,7 @@
 }
 
 .web-link{
-    width: 168px;
+    width: 170px;
     height: 38px;
     padding: 10px 11px;
     background: #665CD1;
@@ -93,8 +93,22 @@
     transition: 1s;
 }
 
-// @media (max-width: 767px) {
-//     .wrapper .wraper-form {
-//         padding: 120px 10px;
-//     }
-// }
+
+.header-not-at-top {
+    .nav-link, .language-select {
+        color: #171717;
+    }
+
+    .nav-link:hover, .language-select:hover {
+        color: #665CD1;
+        transition: 1s;
+    }
+    .header-modal {
+        background-color: #FEFEFE;
+    }
+
+    .header_home-logo path {
+        fill: #171717;
+    }
+}
+

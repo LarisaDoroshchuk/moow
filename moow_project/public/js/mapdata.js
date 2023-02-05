@@ -262,3 +262,18 @@ if (
   });
   observer.observe(document.querySelector("#top-of-site-pixel-anchor"));
 }
+
+setInterval(function () {
+  const collection = document.getElementsByClassName("stepsBlock_item");
+  for (i = 0; i < collection.length; i++) {
+    if (collection[i].classList.contains("stepsBlock_active")) {
+      collection[i].classList.remove("stepsBlock_active");
+      if (i == collection.length - 1) {
+        collection[0].classList.add("stepsBlock_active");
+      } else {
+        collection[i + 1].classList.add("stepsBlock_active");
+      }
+      return;
+    }
+  }
+}, 8000);

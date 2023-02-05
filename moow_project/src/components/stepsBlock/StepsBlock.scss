@@ -41,10 +41,11 @@
     margin-left: 0;
 }
 
-.stepsBlock_svg-first{
+.svg-first{
     width: 71.56px;
     height: 65px;
 }
+
 
 .item-text_container{
     display: flex;
@@ -55,7 +56,7 @@
 }
 
 .stepsBlock_item-title{
-    width: 54px;
+    width: 58px;
     height: 20px;
     font: 700 17px/20px "Mulish", sans-serif;
     color: #171717;
@@ -110,6 +111,30 @@
     .stepsBlock_item-text {
         font: 500 14px/18px "Mulish", sans-serif;
     }
+}
+
+.stepsBlock_active {
+    background: #665CD1 !important;
+    transition: 2s;
+}
+
+.stepsBlock_active {
+   
+        .stepsBlock_svg path {
+            fill: #F1F0FF;
+            width: 100px;
+        }
+    
+        .stepsBlock_item-title {
+            color: #F1F0FF;
+            transition: 1s;
+        }
+    
+        .stepsBlock_item-text {
+            color: #F1F0FF;
+            transition: 1s;
+        }
+
 }
 
 
