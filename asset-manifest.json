@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.55e527e8.css",
-    "main.js": "./static/js/main.343fcf2e.js",
+    "main.css": "./static/css/main.119585b6.css",
+    "main.js": "./static/js/main.85d9f86d.js",
+    "static/media/background_missionBlock.png": "./static/media/background_missionBlock.220cfd45aa5979afa44c.png",
     "static/media/background_businessCenterBlock_img.png": "./static/media/background_businessCenterBlock_img.d33724e06079fd368b0d.png",
     "static/media/securityBlock.png": "./static/media/securityBlock.66f6aea6b9c74273ebc0.png",
     "static/media/background_topBlock.png": "./static/media/background_topBlock.06ab4b0801dd54b36f98.png",
@@ -13,11 +14,11 @@
     "static/media/tractor.png": "./static/media/tractor.1d610e5e8a153eb672bf.png",
     "static/media/truck.png": "./static/media/truck.2cd323f0ab670d4fa284.png",
     "index.html": "./index.html",
-    "main.55e527e8.css.map": "./static/css/main.55e527e8.css.map",
-    "main.343fcf2e.js.map": "./static/js/main.343fcf2e.js.map"
+    "main.119585b6.css.map": "./static/css/main.119585b6.css.map",
+    "main.85d9f86d.js.map": "./static/js/main.85d9f86d.js.map"
   },
   "entrypoints": [
-    "static/css/main.55e527e8.css",
-    "static/js/main.343fcf2e.js"
+    "static/css/main.119585b6.css",
+    "static/js/main.85d9f86d.js"
   ]
 }
