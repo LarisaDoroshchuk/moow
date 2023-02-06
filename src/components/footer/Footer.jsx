@@ -169,7 +169,7 @@ const Footer = () => {
                         </div>
 
                         <div className="footer-item_wrap-list">
-                            <a className="footer-item_list-title footer-link link-document" href="!#">Документи</a>
+                            <a className="footer-item_list-title footer-link link-document" href="/">Документи</a>
                         </div>
                     </section>
 

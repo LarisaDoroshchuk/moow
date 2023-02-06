@@ -4,8 +4,7 @@ import LastQuestions from '../../components/lastQuestions/LastQuestions';
 import DownloadApplication from '../../components/downloadApplication/DownloadApplication';
 import Footer from '../../components/footer/Footer';
 
-
-function Faq() {
+function FAQ() {
     return (
         <>
             <Header />
@@ -17,4 +16,4 @@ function Faq() {
         </>
     );
 }
-export default Faq;
+export default FAQ;
